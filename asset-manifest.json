@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/paste-starter/static/js/a2p-monkey.js",
+    "main.js.map": "/paste-starter/static/js/a2p-monkey.js.map",
+    "static/js/1.a2p-monkey.js": "/paste-starter/static/js/1.a2p-monkey.js",
+    "static/js/1.a2p-monkey.js.map": "/paste-starter/static/js/1.a2p-monkey.js.map",
+    "index.html": "/paste-starter/index.html",
+    "static/js/a2p-monkey.js.LICENSE.txt": "/paste-starter/static/js/a2p-monkey.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/a2p-monkey.js"
+  ]
+}
