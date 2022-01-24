@@ -5,14 +5,9 @@ exports[`<SlantedBackgroundGradient /> should render correctly 1`] = `
   <div
     class="css-ql39e"
   >
-    <div
-      class="css-roynbj"
-      data-paste-element="BOX"
-    >
+    <div>
       <div>
-        <div>
-          Test Component
-        </div>
+        Test Component
       </div>
     </div>
   </div>

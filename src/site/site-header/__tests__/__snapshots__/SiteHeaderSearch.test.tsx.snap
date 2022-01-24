@@ -6,100 +6,95 @@ exports[`<SiteHeaderSearch /> should render correctly 1`] = `
     class="css-ql39e"
   >
     <div
-      class="css-roynbj"
+      class="css-1oex4ez"
       data-paste-element="BOX"
     >
-      <div
-        class="css-1oex4ez"
-        data-paste-element="BOX"
-      >
-        <form>
-          <div
-            class="css-1jbznaz"
-            color="colorTextInverse"
-            cursor="text"
-            data-paste-element="INPUT"
-            display="flex"
+      <form>
+        <div
+          class="css-1jbznaz"
+          color="colorTextInverse"
+          cursor="text"
+          data-paste-element="INPUT"
+          display="flex"
+          width="100%"
+        >
+          <input
+            aria-invalid="false"
+            class="css-dw9535"
+            color="inherit"
+            cursor="auto"
+            data-paste-element="INPUT_ELEMENT"
+            data-testid="site_header_search_input"
+            display="block"
+            font-family="inherit"
+            font-size="fontSize30"
+            font-weight="fontWeightMedium"
+            id="search_input"
+            name="search_input"
+            placeholder="Search by account"
+            type="text"
+            value="ACxxx"
             width="100%"
+          />
+          <div
+            class="css-14mvu2x"
+            data-paste-element="INPUT_SUFFIX"
+            display="flex"
           >
-            <input
-              aria-invalid="false"
-              class="css-dw9535"
-              color="inherit"
-              cursor="auto"
-              data-paste-element="INPUT_ELEMENT"
-              data-testid="site_header_search_input"
-              display="block"
-              font-family="inherit"
-              font-size="fontSize30"
-              font-weight="fontWeightMedium"
-              id="search_input"
-              name="search_input"
-              placeholder="Search by account"
-              type="text"
-              value="ACxxx"
-              width="100%"
-            />
             <div
-              class="css-14mvu2x"
-              data-paste-element="INPUT_SUFFIX"
-              display="flex"
+              class="css-1os76sl"
+              cursor="default"
+              data-paste-element="BOX"
             >
-              <div
-                class="css-1os76sl"
-                cursor="default"
-                data-paste-element="BOX"
+              <button
+                aria-busy="false"
+                class="css-tge1d4"
+                color="inherit"
+                cursor="pointer"
+                data-paste-element="BUTTON"
+                data-testid="site_header_search_btn"
+                display="inline-block"
+                font-family="fontFamilyText"
+                font-size="inherit"
+                font-weight="inherit"
+                text-decoration="none"
+                type="submit"
+                width="auto"
               >
-                <button
-                  aria-busy="false"
-                  class="css-tge1d4"
-                  color="inherit"
-                  cursor="pointer"
-                  data-paste-element="BUTTON"
-                  data-testid="site_header_search_btn"
-                  display="inline-block"
-                  font-family="fontFamilyText"
-                  font-size="inherit"
-                  font-weight="inherit"
-                  text-decoration="none"
-                  type="submit"
-                  width="auto"
+                <span
+                  aria-hidden="false"
+                  class="css-beroof"
+                  data-paste-element="BOX"
+                  display="flex"
+                  opacity="1"
+                  text-decoration="inherit"
                 >
                   <span
-                    aria-hidden="false"
-                    class="css-beroof"
-                    data-paste-element="BOX"
-                    display="flex"
-                    opacity="1"
-                    text-decoration="inherit"
+                    class="css-zeqpzn"
+                    color="currentColor"
+                    data-paste-element="ICON"
+                    display="block"
                   >
-                    <span
-                      class="css-zeqpzn"
-                      color="currentColor"
-                      data-paste-element="ICON"
-                      display="block"
+                    <svg
+                      aria-hidden="true"
+                      height="100%"
+                      role="img"
+                      viewBox="0 0 20 20"
+                      width="100%"
                     >
-                      <svg
-                        aria-hidden="true"
-                        height="100%"
-                        role="img"
-                        viewBox="0 0 20 20"
-                        width="100%"
-                      >
-                        <path
-                          d="M5.43 5.43a4.882 4.882 0 017.383 6.347l2.973 2.973a.732.732 0 01-1.036 1.036l-2.973-2.973A4.883 4.883 0 015.43 5.43zm1.035 1.035a3.417 3.417 0 104.833 4.833 3.417 3.417 0 00-4.833-4.833z"
-                          fill="currentColor"
-                          fill-rule="evenodd"
-                        />
-                      </svg>
-                    </span>
+                      <path
+                        d="M5.43 5.43a4.882 4.882 0 017.383 6.347l2.973 2.973a.732.732 0 01-1.036 1.036l-2.973-2.973A4.883 4.883 0 015.43 5.43zm1.035 1.035a3.417 3.417 0 104.833 4.833 3.417 3.417 0 00-4.833-4.833z"
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
                   </span>
-                </button>
-              </div>
+                </span>
+              </button>
             </div>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </div>
 </div>

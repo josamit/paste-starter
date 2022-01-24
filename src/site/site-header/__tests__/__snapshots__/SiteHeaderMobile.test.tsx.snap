@@ -7,197 +7,192 @@ exports[`<SiteHeaderMobile /> should be able to open and close main mobile navig
   <div
     class="css-ql39e"
   >
-    <div
-      class="css-roynbj"
+    <header
+      class="css-15c1jec"
       data-paste-element="BOX"
+      display="flex,flex,none"
     >
-      <header
-        class="css-15c1jec"
+      <div
+        class="css-c8ym1p"
         data-paste-element="BOX"
-        display="flex,flex,none"
       >
-        <div
-          class="css-c8ym1p"
-          data-paste-element="BOX"
-        >
-          <button
-            aria-busy="false"
-            class="css-12ggu7m"
-            color="colorTextInverse"
-            cursor="pointer"
-            data-paste-element="BUTTON"
-            display="inline-block"
-            font-family="fontFamilyText"
-            font-weight="fontWeightSemibold"
-            text-decoration="none"
-            type="button"
-            width="auto"
-          >
-            <span
-              aria-hidden="false"
-              class="css-cfzbzn"
-              data-paste-element="BOX"
-              display="flex"
-              opacity="1"
-              text-decoration="inherit"
-            >
-              <div
-                class="css-j5k42x"
-                data-paste-element="BOX"
-              >
-                <span
-                  class="css-zhc3mm"
-                  color="currentColor"
-                  data-paste-element="ICON"
-                  display="block"
-                >
-                  <svg
-                    aria-hidden="false"
-                    height="100%"
-                    role="img"
-                    viewBox="0 0 20 20"
-                    width="100%"
-                  >
-                    <title>
-                      Search by Account SID (ACxxx)
-                    </title>
-                    <path
-                      d="M5.43 5.43a4.882 4.882 0 017.383 6.347l2.973 2.973a.732.732 0 01-1.036 1.036l-2.973-2.973A4.883 4.883 0 015.43 5.43zm1.035 1.035a3.417 3.417 0 104.833 4.833 3.417 3.417 0 00-4.833-4.833z"
-                      fill="currentColor"
-                      fill-rule="evenodd"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </span>
-          </button>
-        </div>
-        <div
-          class="css-1pbe5qc"
-          data-paste-element="BOX"
-          display="flex"
+        <button
+          aria-busy="false"
+          class="css-12ggu7m"
+          color="colorTextInverse"
+          cursor="pointer"
+          data-paste-element="BUTTON"
+          display="inline-block"
+          font-family="fontFamilyText"
+          font-weight="fontWeightSemibold"
+          text-decoration="none"
+          type="button"
+          width="auto"
         >
           <span
-            class="css-8jah14"
-            data-paste-element="MEDIA_OBJECT"
+            aria-hidden="false"
+            class="css-cfzbzn"
+            data-paste-element="BOX"
             display="flex"
+            opacity="1"
+            text-decoration="inherit"
           >
-            <span
-              class="css-and4r"
-              data-paste-element="MEDIA_FIGURE"
-              display="flex"
+            <div
+              class="css-j5k42x"
+              data-paste-element="BOX"
             >
               <span
-                class="css-1v1gjpp"
-                color="colorTextInverse"
+                class="css-zhc3mm"
+                color="currentColor"
                 data-paste-element="ICON"
                 display="block"
               >
                 <svg
-                  aria-hidden="true"
+                  aria-hidden="false"
                   height="100%"
                   role="img"
                   viewBox="0 0 20 20"
                   width="100%"
                 >
+                  <title>
+                    Search by Account SID (ACxxx)
+                  </title>
                   <path
-                    d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0010 0zm0 17.333a7.333 7.333 0 110-14.666 7.333 7.333 0 010 14.666zm4.533-9.8a2.067 2.067 0 11-2.066-2.066 2.08 2.08 0 012.066 2.066zm0 4.934a2.067 2.067 0 11-2.066-2.067 2.08 2.08 0 012.066 2.067zm-4.933 0A2.067 2.067 0 117.533 10.4 2.08 2.08 0 019.6 12.467zm0-4.934a2.067 2.067 0 11-2.067-2.066A2.08 2.08 0 019.6 7.533z"
+                    d="M5.43 5.43a4.882 4.882 0 017.383 6.347l2.973 2.973a.732.732 0 01-1.036 1.036l-2.973-2.973A4.883 4.883 0 015.43 5.43zm1.035 1.035a3.417 3.417 0 104.833 4.833 3.417 3.417 0 00-4.833-4.833z"
                     fill="currentColor"
                     fill-rule="evenodd"
                   />
                 </svg>
               </span>
-            </span>
-            <span
-              class="css-1i39mnm"
-              data-paste-element="MEDIA_BODY"
-            >
-              <div
-                class="css-6kf143"
-                color="colorTextInverse"
-                data-paste-element="TEXT"
-                font-size="fontSize40"
-              >
-                <a
-                  class="css-mtfyde"
-                  href="/"
-                >
-                  Paste Starter
-                </a>
-              </div>
-            </span>
+            </div>
           </span>
-        </div>
-        <div
-          class="css-c8ym1p"
-          data-paste-element="BOX"
+        </button>
+      </div>
+      <div
+        class="css-1pbe5qc"
+        data-paste-element="BOX"
+        display="flex"
+      >
+        <span
+          class="css-8jah14"
+          data-paste-element="MEDIA_OBJECT"
+          display="flex"
         >
-          <button
-            aria-busy="false"
-            aria-label="Open main navigation"
-            class="css-12ggu7m"
-            color="colorTextInverse"
-            cursor="pointer"
-            data-paste-element="BUTTON"
-            data-testid="open_main_navigation"
-            display="inline-block"
-            font-family="fontFamilyText"
-            font-weight="fontWeightSemibold"
-            text-decoration="none"
-            type="button"
-            width="auto"
+          <span
+            class="css-and4r"
+            data-paste-element="MEDIA_FIGURE"
+            display="flex"
           >
             <span
-              aria-hidden="false"
-              class="css-cfzbzn"
-              data-paste-element="BOX"
-              display="flex"
-              opacity="1"
-              text-decoration="inherit"
+              class="css-1v1gjpp"
+              color="colorTextInverse"
+              data-paste-element="ICON"
+              display="block"
             >
-              <div
+              <svg
                 aria-hidden="true"
-                class="css-dujrh8"
-                data-paste-element="BOX"
-                height="28px"
-                width="36px"
+                height="100%"
+                role="img"
+                viewBox="0 0 20 20"
+                width="100%"
               >
-                <span
-                  class="css-yufnr1"
-                  data-paste-element="BOX"
-                  height="3px"
-                  opacity="1"
-                  transform="rotate(0deg)"
-                  width="16px"
+                <path
+                  d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0010 0zm0 17.333a7.333 7.333 0 110-14.666 7.333 7.333 0 010 14.666zm4.533-9.8a2.067 2.067 0 11-2.066-2.066 2.08 2.08 0 012.066 2.066zm0 4.934a2.067 2.067 0 11-2.066-2.067 2.08 2.08 0 012.066 2.067zm-4.933 0A2.067 2.067 0 117.533 10.4 2.08 2.08 0 019.6 12.467zm0-4.934a2.067 2.067 0 11-2.067-2.066A2.08 2.08 0 019.6 7.533z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
                 />
-                <span
-                  class="css-rz76f9"
-                  data-paste-element="BOX"
-                  height="3px"
-                  transform="translateX(0) translateY(0) rotate(0deg)"
-                  width="16px"
-                />
-                <span
-                  class="css-rz76f9"
-                  data-paste-element="BOX"
-                  height="3px"
-                  transform="translateX(0) translateY(0) rotate(0deg)"
-                  width="16px"
-                />
-                <span
-                  class="css-1k16ztv"
-                  data-paste-element="BOX"
-                  height="3px"
-                  opacity="1"
-                  transform="translateX(0) translateY(0) rotate(0deg)"
-                  width="16px"
-                />
-              </div>
+              </svg>
             </span>
-          </button>
-        </div>
-      </header>
-    </div>
+          </span>
+          <span
+            class="css-1i39mnm"
+            data-paste-element="MEDIA_BODY"
+          >
+            <div
+              class="css-6kf143"
+              color="colorTextInverse"
+              data-paste-element="TEXT"
+              font-size="fontSize40"
+            >
+              <a
+                class="css-mtfyde"
+                href="/"
+              >
+                Paste Starter
+              </a>
+            </div>
+          </span>
+        </span>
+      </div>
+      <div
+        class="css-c8ym1p"
+        data-paste-element="BOX"
+      >
+        <button
+          aria-busy="false"
+          aria-label="Open main navigation"
+          class="css-12ggu7m"
+          color="colorTextInverse"
+          cursor="pointer"
+          data-paste-element="BUTTON"
+          data-testid="open_main_navigation"
+          display="inline-block"
+          font-family="fontFamilyText"
+          font-weight="fontWeightSemibold"
+          text-decoration="none"
+          type="button"
+          width="auto"
+        >
+          <span
+            aria-hidden="false"
+            class="css-cfzbzn"
+            data-paste-element="BOX"
+            display="flex"
+            opacity="1"
+            text-decoration="inherit"
+          >
+            <div
+              aria-hidden="true"
+              class="css-dujrh8"
+              data-paste-element="BOX"
+              height="28px"
+              width="36px"
+            >
+              <span
+                class="css-yufnr1"
+                data-paste-element="BOX"
+                height="3px"
+                opacity="1"
+                transform="rotate(0deg)"
+                width="16px"
+              />
+              <span
+                class="css-rz76f9"
+                data-paste-element="BOX"
+                height="3px"
+                transform="translateX(0) translateY(0) rotate(0deg)"
+                width="16px"
+              />
+              <span
+                class="css-rz76f9"
+                data-paste-element="BOX"
+                height="3px"
+                transform="translateX(0) translateY(0) rotate(0deg)"
+                width="16px"
+              />
+              <span
+                class="css-1k16ztv"
+                data-paste-element="BOX"
+                height="3px"
+                opacity="1"
+                transform="translateX(0) translateY(0) rotate(0deg)"
+                width="16px"
+              />
+            </div>
+          </span>
+        </button>
+      </div>
+    </header>
   </div>
 </div>
 `;
@@ -209,197 +204,192 @@ exports[`<SiteHeaderMobile /> should be able to open and close main mobile navig
   <div
     class="css-ql39e"
   >
-    <div
-      class="css-roynbj"
+    <header
+      class="css-15c1jec"
       data-paste-element="BOX"
+      display="flex,flex,none"
     >
-      <header
-        class="css-15c1jec"
+      <div
+        class="css-c8ym1p"
         data-paste-element="BOX"
-        display="flex,flex,none"
       >
-        <div
-          class="css-c8ym1p"
-          data-paste-element="BOX"
-        >
-          <button
-            aria-busy="false"
-            class="css-12ggu7m"
-            color="colorTextInverse"
-            cursor="pointer"
-            data-paste-element="BUTTON"
-            display="inline-block"
-            font-family="fontFamilyText"
-            font-weight="fontWeightSemibold"
-            text-decoration="none"
-            type="button"
-            width="auto"
-          >
-            <span
-              aria-hidden="false"
-              class="css-cfzbzn"
-              data-paste-element="BOX"
-              display="flex"
-              opacity="1"
-              text-decoration="inherit"
-            >
-              <div
-                class="css-j5k42x"
-                data-paste-element="BOX"
-              >
-                <span
-                  class="css-zhc3mm"
-                  color="currentColor"
-                  data-paste-element="ICON"
-                  display="block"
-                >
-                  <svg
-                    aria-hidden="false"
-                    height="100%"
-                    role="img"
-                    viewBox="0 0 20 20"
-                    width="100%"
-                  >
-                    <title>
-                      Search by Account SID (ACxxx)
-                    </title>
-                    <path
-                      d="M5.43 5.43a4.882 4.882 0 017.383 6.347l2.973 2.973a.732.732 0 01-1.036 1.036l-2.973-2.973A4.883 4.883 0 015.43 5.43zm1.035 1.035a3.417 3.417 0 104.833 4.833 3.417 3.417 0 00-4.833-4.833z"
-                      fill="currentColor"
-                      fill-rule="evenodd"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </span>
-          </button>
-        </div>
-        <div
-          class="css-1pbe5qc"
-          data-paste-element="BOX"
-          display="flex"
+        <button
+          aria-busy="false"
+          class="css-12ggu7m"
+          color="colorTextInverse"
+          cursor="pointer"
+          data-paste-element="BUTTON"
+          display="inline-block"
+          font-family="fontFamilyText"
+          font-weight="fontWeightSemibold"
+          text-decoration="none"
+          type="button"
+          width="auto"
         >
           <span
-            class="css-8jah14"
-            data-paste-element="MEDIA_OBJECT"
+            aria-hidden="false"
+            class="css-cfzbzn"
+            data-paste-element="BOX"
             display="flex"
+            opacity="1"
+            text-decoration="inherit"
           >
-            <span
-              class="css-and4r"
-              data-paste-element="MEDIA_FIGURE"
-              display="flex"
+            <div
+              class="css-j5k42x"
+              data-paste-element="BOX"
             >
               <span
-                class="css-1v1gjpp"
-                color="colorTextInverse"
+                class="css-zhc3mm"
+                color="currentColor"
                 data-paste-element="ICON"
                 display="block"
               >
                 <svg
-                  aria-hidden="true"
+                  aria-hidden="false"
                   height="100%"
                   role="img"
                   viewBox="0 0 20 20"
                   width="100%"
                 >
+                  <title>
+                    Search by Account SID (ACxxx)
+                  </title>
                   <path
-                    d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0010 0zm0 17.333a7.333 7.333 0 110-14.666 7.333 7.333 0 010 14.666zm4.533-9.8a2.067 2.067 0 11-2.066-2.066 2.08 2.08 0 012.066 2.066zm0 4.934a2.067 2.067 0 11-2.066-2.067 2.08 2.08 0 012.066 2.067zm-4.933 0A2.067 2.067 0 117.533 10.4 2.08 2.08 0 019.6 12.467zm0-4.934a2.067 2.067 0 11-2.067-2.066A2.08 2.08 0 019.6 7.533z"
+                    d="M5.43 5.43a4.882 4.882 0 017.383 6.347l2.973 2.973a.732.732 0 01-1.036 1.036l-2.973-2.973A4.883 4.883 0 015.43 5.43zm1.035 1.035a3.417 3.417 0 104.833 4.833 3.417 3.417 0 00-4.833-4.833z"
                     fill="currentColor"
                     fill-rule="evenodd"
                   />
                 </svg>
               </span>
-            </span>
-            <span
-              class="css-1i39mnm"
-              data-paste-element="MEDIA_BODY"
-            >
-              <div
-                class="css-6kf143"
-                color="colorTextInverse"
-                data-paste-element="TEXT"
-                font-size="fontSize40"
-              >
-                <a
-                  class="css-mtfyde"
-                  href="/"
-                >
-                  Paste Starter
-                </a>
-              </div>
-            </span>
+            </div>
           </span>
-        </div>
-        <div
-          class="css-c8ym1p"
-          data-paste-element="BOX"
+        </button>
+      </div>
+      <div
+        class="css-1pbe5qc"
+        data-paste-element="BOX"
+        display="flex"
+      >
+        <span
+          class="css-8jah14"
+          data-paste-element="MEDIA_OBJECT"
+          display="flex"
         >
-          <button
-            aria-busy="false"
-            aria-label="Open main navigation"
-            class="css-12ggu7m"
-            color="colorTextInverse"
-            cursor="pointer"
-            data-paste-element="BUTTON"
-            data-testid="open_main_navigation"
-            display="inline-block"
-            font-family="fontFamilyText"
-            font-weight="fontWeightSemibold"
-            text-decoration="none"
-            type="button"
-            width="auto"
+          <span
+            class="css-and4r"
+            data-paste-element="MEDIA_FIGURE"
+            display="flex"
           >
             <span
-              aria-hidden="false"
-              class="css-cfzbzn"
-              data-paste-element="BOX"
-              display="flex"
-              opacity="1"
-              text-decoration="inherit"
+              class="css-1v1gjpp"
+              color="colorTextInverse"
+              data-paste-element="ICON"
+              display="block"
             >
-              <div
+              <svg
                 aria-hidden="true"
-                class="css-dujrh8"
-                data-paste-element="BOX"
-                height="28px"
-                width="36px"
+                height="100%"
+                role="img"
+                viewBox="0 0 20 20"
+                width="100%"
               >
-                <span
-                  class="css-15ywz3f"
-                  data-paste-element="BOX"
-                  height="3px"
-                  opacity="0"
-                  transform="translateX(6px) translateY(4px) rotate(45deg)"
-                  width="16px"
+                <path
+                  d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0010 0zm0 17.333a7.333 7.333 0 110-14.666 7.333 7.333 0 010 14.666zm4.533-9.8a2.067 2.067 0 11-2.066-2.066 2.08 2.08 0 012.066 2.066zm0 4.934a2.067 2.067 0 11-2.066-2.067 2.08 2.08 0 012.066 2.067zm-4.933 0A2.067 2.067 0 117.533 10.4 2.08 2.08 0 019.6 12.467zm0-4.934a2.067 2.067 0 11-2.067-2.066A2.08 2.08 0 019.6 7.533z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
                 />
-                <span
-                  class="css-25g0e5"
-                  data-paste-element="BOX"
-                  height="3px"
-                  transform="translateX(2px) translateY(-5px) rotate(45deg)"
-                  width="16px"
-                />
-                <span
-                  class="css-1j1o2c5"
-                  data-paste-element="BOX"
-                  height="3px"
-                  transform="translateX(2px) translateY(6px) rotate(-45deg)"
-                  width="16px"
-                />
-                <span
-                  class="css-d7i4zw"
-                  data-paste-element="BOX"
-                  height="3px"
-                  opacity="0"
-                  transform="translateX(6px) translateY(-4px) rotate(-45deg)"
-                  width="16px"
-                />
-              </div>
+              </svg>
             </span>
-          </button>
-        </div>
-      </header>
-    </div>
+          </span>
+          <span
+            class="css-1i39mnm"
+            data-paste-element="MEDIA_BODY"
+          >
+            <div
+              class="css-6kf143"
+              color="colorTextInverse"
+              data-paste-element="TEXT"
+              font-size="fontSize40"
+            >
+              <a
+                class="css-mtfyde"
+                href="/"
+              >
+                Paste Starter
+              </a>
+            </div>
+          </span>
+        </span>
+      </div>
+      <div
+        class="css-c8ym1p"
+        data-paste-element="BOX"
+      >
+        <button
+          aria-busy="false"
+          aria-label="Open main navigation"
+          class="css-12ggu7m"
+          color="colorTextInverse"
+          cursor="pointer"
+          data-paste-element="BUTTON"
+          data-testid="open_main_navigation"
+          display="inline-block"
+          font-family="fontFamilyText"
+          font-weight="fontWeightSemibold"
+          text-decoration="none"
+          type="button"
+          width="auto"
+        >
+          <span
+            aria-hidden="false"
+            class="css-cfzbzn"
+            data-paste-element="BOX"
+            display="flex"
+            opacity="1"
+            text-decoration="inherit"
+          >
+            <div
+              aria-hidden="true"
+              class="css-dujrh8"
+              data-paste-element="BOX"
+              height="28px"
+              width="36px"
+            >
+              <span
+                class="css-15ywz3f"
+                data-paste-element="BOX"
+                height="3px"
+                opacity="0"
+                transform="translateX(6px) translateY(4px) rotate(45deg)"
+                width="16px"
+              />
+              <span
+                class="css-25g0e5"
+                data-paste-element="BOX"
+                height="3px"
+                transform="translateX(2px) translateY(-5px) rotate(45deg)"
+                width="16px"
+              />
+              <span
+                class="css-1j1o2c5"
+                data-paste-element="BOX"
+                height="3px"
+                transform="translateX(2px) translateY(6px) rotate(-45deg)"
+                width="16px"
+              />
+              <span
+                class="css-d7i4zw"
+                data-paste-element="BOX"
+                height="3px"
+                opacity="0"
+                transform="translateX(6px) translateY(-4px) rotate(-45deg)"
+                width="16px"
+              />
+            </div>
+          </span>
+        </button>
+      </div>
+    </header>
   </div>
 </div>
 `;
@@ -409,197 +399,192 @@ exports[`<SiteHeaderMobile /> should be able to open and close mobile navigation
   <div
     class="css-ql39e"
   >
-    <div
-      class="css-roynbj"
+    <header
+      class="css-15c1jec"
       data-paste-element="BOX"
+      display="flex,flex,none"
     >
-      <header
-        class="css-15c1jec"
+      <div
+        class="css-c8ym1p"
         data-paste-element="BOX"
-        display="flex,flex,none"
       >
-        <div
-          class="css-c8ym1p"
-          data-paste-element="BOX"
-        >
-          <button
-            aria-busy="false"
-            class="css-12ggu7m"
-            color="colorTextInverse"
-            cursor="pointer"
-            data-paste-element="BUTTON"
-            display="inline-block"
-            font-family="fontFamilyText"
-            font-weight="fontWeightSemibold"
-            text-decoration="none"
-            type="button"
-            width="auto"
-          >
-            <span
-              aria-hidden="false"
-              class="css-cfzbzn"
-              data-paste-element="BOX"
-              display="flex"
-              opacity="1"
-              text-decoration="inherit"
-            >
-              <div
-                class="css-j5k42x"
-                data-paste-element="BOX"
-              >
-                <span
-                  class="css-zhc3mm"
-                  color="currentColor"
-                  data-paste-element="ICON"
-                  display="block"
-                >
-                  <svg
-                    aria-hidden="false"
-                    height="100%"
-                    role="img"
-                    viewBox="0 0 20 20"
-                    width="100%"
-                  >
-                    <title>
-                      Search by Account SID (ACxxx)
-                    </title>
-                    <path
-                      d="M5.43 5.43a4.882 4.882 0 017.383 6.347l2.973 2.973a.732.732 0 01-1.036 1.036l-2.973-2.973A4.883 4.883 0 015.43 5.43zm1.035 1.035a3.417 3.417 0 104.833 4.833 3.417 3.417 0 00-4.833-4.833z"
-                      fill="currentColor"
-                      fill-rule="evenodd"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </span>
-          </button>
-        </div>
-        <div
-          class="css-1pbe5qc"
-          data-paste-element="BOX"
-          display="flex"
+        <button
+          aria-busy="false"
+          class="css-12ggu7m"
+          color="colorTextInverse"
+          cursor="pointer"
+          data-paste-element="BUTTON"
+          display="inline-block"
+          font-family="fontFamilyText"
+          font-weight="fontWeightSemibold"
+          text-decoration="none"
+          type="button"
+          width="auto"
         >
           <span
-            class="css-8jah14"
-            data-paste-element="MEDIA_OBJECT"
+            aria-hidden="false"
+            class="css-cfzbzn"
+            data-paste-element="BOX"
             display="flex"
+            opacity="1"
+            text-decoration="inherit"
           >
-            <span
-              class="css-and4r"
-              data-paste-element="MEDIA_FIGURE"
-              display="flex"
+            <div
+              class="css-j5k42x"
+              data-paste-element="BOX"
             >
               <span
-                class="css-1v1gjpp"
-                color="colorTextInverse"
+                class="css-zhc3mm"
+                color="currentColor"
                 data-paste-element="ICON"
                 display="block"
               >
                 <svg
-                  aria-hidden="true"
+                  aria-hidden="false"
                   height="100%"
                   role="img"
                   viewBox="0 0 20 20"
                   width="100%"
                 >
+                  <title>
+                    Search by Account SID (ACxxx)
+                  </title>
                   <path
-                    d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0010 0zm0 17.333a7.333 7.333 0 110-14.666 7.333 7.333 0 010 14.666zm4.533-9.8a2.067 2.067 0 11-2.066-2.066 2.08 2.08 0 012.066 2.066zm0 4.934a2.067 2.067 0 11-2.066-2.067 2.08 2.08 0 012.066 2.067zm-4.933 0A2.067 2.067 0 117.533 10.4 2.08 2.08 0 019.6 12.467zm0-4.934a2.067 2.067 0 11-2.067-2.066A2.08 2.08 0 019.6 7.533z"
+                    d="M5.43 5.43a4.882 4.882 0 017.383 6.347l2.973 2.973a.732.732 0 01-1.036 1.036l-2.973-2.973A4.883 4.883 0 015.43 5.43zm1.035 1.035a3.417 3.417 0 104.833 4.833 3.417 3.417 0 00-4.833-4.833z"
                     fill="currentColor"
                     fill-rule="evenodd"
                   />
                 </svg>
               </span>
-            </span>
-            <span
-              class="css-1i39mnm"
-              data-paste-element="MEDIA_BODY"
-            >
-              <div
-                class="css-6kf143"
-                color="colorTextInverse"
-                data-paste-element="TEXT"
-                font-size="fontSize40"
-              >
-                <a
-                  class="css-mtfyde"
-                  href="/"
-                >
-                  Paste Starter
-                </a>
-              </div>
-            </span>
+            </div>
           </span>
-        </div>
-        <div
-          class="css-c8ym1p"
-          data-paste-element="BOX"
+        </button>
+      </div>
+      <div
+        class="css-1pbe5qc"
+        data-paste-element="BOX"
+        display="flex"
+      >
+        <span
+          class="css-8jah14"
+          data-paste-element="MEDIA_OBJECT"
+          display="flex"
         >
-          <button
-            aria-busy="false"
-            aria-label="Open main navigation"
-            class="css-12ggu7m"
-            color="colorTextInverse"
-            cursor="pointer"
-            data-paste-element="BUTTON"
-            data-testid="open_main_navigation"
-            display="inline-block"
-            font-family="fontFamilyText"
-            font-weight="fontWeightSemibold"
-            text-decoration="none"
-            type="button"
-            width="auto"
+          <span
+            class="css-and4r"
+            data-paste-element="MEDIA_FIGURE"
+            display="flex"
           >
             <span
-              aria-hidden="false"
-              class="css-cfzbzn"
-              data-paste-element="BOX"
-              display="flex"
-              opacity="1"
-              text-decoration="inherit"
+              class="css-1v1gjpp"
+              color="colorTextInverse"
+              data-paste-element="ICON"
+              display="block"
             >
-              <div
+              <svg
                 aria-hidden="true"
-                class="css-dujrh8"
-                data-paste-element="BOX"
-                height="28px"
-                width="36px"
+                height="100%"
+                role="img"
+                viewBox="0 0 20 20"
+                width="100%"
               >
-                <span
-                  class="css-yufnr1"
-                  data-paste-element="BOX"
-                  height="3px"
-                  opacity="1"
-                  transform="rotate(0deg)"
-                  width="16px"
+                <path
+                  d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0010 0zm0 17.333a7.333 7.333 0 110-14.666 7.333 7.333 0 010 14.666zm4.533-9.8a2.067 2.067 0 11-2.066-2.066 2.08 2.08 0 012.066 2.066zm0 4.934a2.067 2.067 0 11-2.066-2.067 2.08 2.08 0 012.066 2.067zm-4.933 0A2.067 2.067 0 117.533 10.4 2.08 2.08 0 019.6 12.467zm0-4.934a2.067 2.067 0 11-2.067-2.066A2.08 2.08 0 019.6 7.533z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
                 />
-                <span
-                  class="css-rz76f9"
-                  data-paste-element="BOX"
-                  height="3px"
-                  transform="translateX(0) translateY(0) rotate(0deg)"
-                  width="16px"
-                />
-                <span
-                  class="css-rz76f9"
-                  data-paste-element="BOX"
-                  height="3px"
-                  transform="translateX(0) translateY(0) rotate(0deg)"
-                  width="16px"
-                />
-                <span
-                  class="css-1k16ztv"
-                  data-paste-element="BOX"
-                  height="3px"
-                  opacity="1"
-                  transform="translateX(0) translateY(0) rotate(0deg)"
-                  width="16px"
-                />
-              </div>
+              </svg>
             </span>
-          </button>
-        </div>
-      </header>
-    </div>
+          </span>
+          <span
+            class="css-1i39mnm"
+            data-paste-element="MEDIA_BODY"
+          >
+            <div
+              class="css-6kf143"
+              color="colorTextInverse"
+              data-paste-element="TEXT"
+              font-size="fontSize40"
+            >
+              <a
+                class="css-mtfyde"
+                href="/"
+              >
+                Paste Starter
+              </a>
+            </div>
+          </span>
+        </span>
+      </div>
+      <div
+        class="css-c8ym1p"
+        data-paste-element="BOX"
+      >
+        <button
+          aria-busy="false"
+          aria-label="Open main navigation"
+          class="css-12ggu7m"
+          color="colorTextInverse"
+          cursor="pointer"
+          data-paste-element="BUTTON"
+          data-testid="open_main_navigation"
+          display="inline-block"
+          font-family="fontFamilyText"
+          font-weight="fontWeightSemibold"
+          text-decoration="none"
+          type="button"
+          width="auto"
+        >
+          <span
+            aria-hidden="false"
+            class="css-cfzbzn"
+            data-paste-element="BOX"
+            display="flex"
+            opacity="1"
+            text-decoration="inherit"
+          >
+            <div
+              aria-hidden="true"
+              class="css-dujrh8"
+              data-paste-element="BOX"
+              height="28px"
+              width="36px"
+            >
+              <span
+                class="css-yufnr1"
+                data-paste-element="BOX"
+                height="3px"
+                opacity="1"
+                transform="rotate(0deg)"
+                width="16px"
+              />
+              <span
+                class="css-rz76f9"
+                data-paste-element="BOX"
+                height="3px"
+                transform="translateX(0) translateY(0) rotate(0deg)"
+                width="16px"
+              />
+              <span
+                class="css-rz76f9"
+                data-paste-element="BOX"
+                height="3px"
+                transform="translateX(0) translateY(0) rotate(0deg)"
+                width="16px"
+              />
+              <span
+                class="css-1k16ztv"
+                data-paste-element="BOX"
+                height="3px"
+                opacity="1"
+                transform="translateX(0) translateY(0) rotate(0deg)"
+                width="16px"
+              />
+            </div>
+          </span>
+        </button>
+      </div>
+    </header>
   </div>
 </div>
 `;
@@ -611,197 +596,192 @@ exports[`<SiteHeaderMobile /> should be able to open and close mobile navigation
   <div
     class="css-ql39e"
   >
-    <div
-      class="css-roynbj"
+    <header
+      class="css-15c1jec"
       data-paste-element="BOX"
+      display="flex,flex,none"
     >
-      <header
-        class="css-15c1jec"
+      <div
+        class="css-c8ym1p"
         data-paste-element="BOX"
-        display="flex,flex,none"
       >
-        <div
-          class="css-c8ym1p"
-          data-paste-element="BOX"
-        >
-          <button
-            aria-busy="false"
-            class="css-12ggu7m"
-            color="colorTextInverse"
-            cursor="pointer"
-            data-paste-element="BUTTON"
-            display="inline-block"
-            font-family="fontFamilyText"
-            font-weight="fontWeightSemibold"
-            text-decoration="none"
-            type="button"
-            width="auto"
-          >
-            <span
-              aria-hidden="false"
-              class="css-cfzbzn"
-              data-paste-element="BOX"
-              display="flex"
-              opacity="1"
-              text-decoration="inherit"
-            >
-              <div
-                class="css-j5k42x"
-                data-paste-element="BOX"
-              >
-                <span
-                  class="css-zhc3mm"
-                  color="currentColor"
-                  data-paste-element="ICON"
-                  display="block"
-                >
-                  <svg
-                    aria-hidden="false"
-                    height="100%"
-                    role="img"
-                    viewBox="0 0 20 20"
-                    width="100%"
-                  >
-                    <title>
-                      Search by Account SID (ACxxx)
-                    </title>
-                    <path
-                      d="M5.43 5.43a4.882 4.882 0 017.383 6.347l2.973 2.973a.732.732 0 01-1.036 1.036l-2.973-2.973A4.883 4.883 0 015.43 5.43zm1.035 1.035a3.417 3.417 0 104.833 4.833 3.417 3.417 0 00-4.833-4.833z"
-                      fill="currentColor"
-                      fill-rule="evenodd"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </span>
-          </button>
-        </div>
-        <div
-          class="css-1pbe5qc"
-          data-paste-element="BOX"
-          display="flex"
+        <button
+          aria-busy="false"
+          class="css-12ggu7m"
+          color="colorTextInverse"
+          cursor="pointer"
+          data-paste-element="BUTTON"
+          display="inline-block"
+          font-family="fontFamilyText"
+          font-weight="fontWeightSemibold"
+          text-decoration="none"
+          type="button"
+          width="auto"
         >
           <span
-            class="css-8jah14"
-            data-paste-element="MEDIA_OBJECT"
+            aria-hidden="false"
+            class="css-cfzbzn"
+            data-paste-element="BOX"
             display="flex"
+            opacity="1"
+            text-decoration="inherit"
           >
-            <span
-              class="css-and4r"
-              data-paste-element="MEDIA_FIGURE"
-              display="flex"
+            <div
+              class="css-j5k42x"
+              data-paste-element="BOX"
             >
               <span
-                class="css-1v1gjpp"
-                color="colorTextInverse"
+                class="css-zhc3mm"
+                color="currentColor"
                 data-paste-element="ICON"
                 display="block"
               >
                 <svg
-                  aria-hidden="true"
+                  aria-hidden="false"
                   height="100%"
                   role="img"
                   viewBox="0 0 20 20"
                   width="100%"
                 >
+                  <title>
+                    Search by Account SID (ACxxx)
+                  </title>
                   <path
-                    d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0010 0zm0 17.333a7.333 7.333 0 110-14.666 7.333 7.333 0 010 14.666zm4.533-9.8a2.067 2.067 0 11-2.066-2.066 2.08 2.08 0 012.066 2.066zm0 4.934a2.067 2.067 0 11-2.066-2.067 2.08 2.08 0 012.066 2.067zm-4.933 0A2.067 2.067 0 117.533 10.4 2.08 2.08 0 019.6 12.467zm0-4.934a2.067 2.067 0 11-2.067-2.066A2.08 2.08 0 019.6 7.533z"
+                    d="M5.43 5.43a4.882 4.882 0 017.383 6.347l2.973 2.973a.732.732 0 01-1.036 1.036l-2.973-2.973A4.883 4.883 0 015.43 5.43zm1.035 1.035a3.417 3.417 0 104.833 4.833 3.417 3.417 0 00-4.833-4.833z"
                     fill="currentColor"
                     fill-rule="evenodd"
                   />
                 </svg>
               </span>
-            </span>
-            <span
-              class="css-1i39mnm"
-              data-paste-element="MEDIA_BODY"
-            >
-              <div
-                class="css-6kf143"
-                color="colorTextInverse"
-                data-paste-element="TEXT"
-                font-size="fontSize40"
-              >
-                <a
-                  class="css-mtfyde"
-                  href="/"
-                >
-                  Paste Starter
-                </a>
-              </div>
-            </span>
+            </div>
           </span>
-        </div>
-        <div
-          class="css-c8ym1p"
-          data-paste-element="BOX"
+        </button>
+      </div>
+      <div
+        class="css-1pbe5qc"
+        data-paste-element="BOX"
+        display="flex"
+      >
+        <span
+          class="css-8jah14"
+          data-paste-element="MEDIA_OBJECT"
+          display="flex"
         >
-          <button
-            aria-busy="false"
-            aria-label="Open main navigation"
-            class="css-12ggu7m"
-            color="colorTextInverse"
-            cursor="pointer"
-            data-paste-element="BUTTON"
-            data-testid="open_main_navigation"
-            display="inline-block"
-            font-family="fontFamilyText"
-            font-weight="fontWeightSemibold"
-            text-decoration="none"
-            type="button"
-            width="auto"
+          <span
+            class="css-and4r"
+            data-paste-element="MEDIA_FIGURE"
+            display="flex"
           >
             <span
-              aria-hidden="false"
-              class="css-cfzbzn"
-              data-paste-element="BOX"
-              display="flex"
-              opacity="1"
-              text-decoration="inherit"
+              class="css-1v1gjpp"
+              color="colorTextInverse"
+              data-paste-element="ICON"
+              display="block"
             >
-              <div
+              <svg
                 aria-hidden="true"
-                class="css-dujrh8"
-                data-paste-element="BOX"
-                height="28px"
-                width="36px"
+                height="100%"
+                role="img"
+                viewBox="0 0 20 20"
+                width="100%"
               >
-                <span
-                  class="css-yufnr1"
-                  data-paste-element="BOX"
-                  height="3px"
-                  opacity="1"
-                  transform="rotate(0deg)"
-                  width="16px"
+                <path
+                  d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0010 0zm0 17.333a7.333 7.333 0 110-14.666 7.333 7.333 0 010 14.666zm4.533-9.8a2.067 2.067 0 11-2.066-2.066 2.08 2.08 0 012.066 2.066zm0 4.934a2.067 2.067 0 11-2.066-2.067 2.08 2.08 0 012.066 2.067zm-4.933 0A2.067 2.067 0 117.533 10.4 2.08 2.08 0 019.6 12.467zm0-4.934a2.067 2.067 0 11-2.067-2.066A2.08 2.08 0 019.6 7.533z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
                 />
-                <span
-                  class="css-rz76f9"
-                  data-paste-element="BOX"
-                  height="3px"
-                  transform="translateX(0) translateY(0) rotate(0deg)"
-                  width="16px"
-                />
-                <span
-                  class="css-rz76f9"
-                  data-paste-element="BOX"
-                  height="3px"
-                  transform="translateX(0) translateY(0) rotate(0deg)"
-                  width="16px"
-                />
-                <span
-                  class="css-1k16ztv"
-                  data-paste-element="BOX"
-                  height="3px"
-                  opacity="1"
-                  transform="translateX(0) translateY(0) rotate(0deg)"
-                  width="16px"
-                />
-              </div>
+              </svg>
             </span>
-          </button>
-        </div>
-      </header>
-    </div>
+          </span>
+          <span
+            class="css-1i39mnm"
+            data-paste-element="MEDIA_BODY"
+          >
+            <div
+              class="css-6kf143"
+              color="colorTextInverse"
+              data-paste-element="TEXT"
+              font-size="fontSize40"
+            >
+              <a
+                class="css-mtfyde"
+                href="/"
+              >
+                Paste Starter
+              </a>
+            </div>
+          </span>
+        </span>
+      </div>
+      <div
+        class="css-c8ym1p"
+        data-paste-element="BOX"
+      >
+        <button
+          aria-busy="false"
+          aria-label="Open main navigation"
+          class="css-12ggu7m"
+          color="colorTextInverse"
+          cursor="pointer"
+          data-paste-element="BUTTON"
+          data-testid="open_main_navigation"
+          display="inline-block"
+          font-family="fontFamilyText"
+          font-weight="fontWeightSemibold"
+          text-decoration="none"
+          type="button"
+          width="auto"
+        >
+          <span
+            aria-hidden="false"
+            class="css-cfzbzn"
+            data-paste-element="BOX"
+            display="flex"
+            opacity="1"
+            text-decoration="inherit"
+          >
+            <div
+              aria-hidden="true"
+              class="css-dujrh8"
+              data-paste-element="BOX"
+              height="28px"
+              width="36px"
+            >
+              <span
+                class="css-yufnr1"
+                data-paste-element="BOX"
+                height="3px"
+                opacity="1"
+                transform="rotate(0deg)"
+                width="16px"
+              />
+              <span
+                class="css-rz76f9"
+                data-paste-element="BOX"
+                height="3px"
+                transform="translateX(0) translateY(0) rotate(0deg)"
+                width="16px"
+              />
+              <span
+                class="css-rz76f9"
+                data-paste-element="BOX"
+                height="3px"
+                transform="translateX(0) translateY(0) rotate(0deg)"
+                width="16px"
+              />
+              <span
+                class="css-1k16ztv"
+                data-paste-element="BOX"
+                height="3px"
+                opacity="1"
+                transform="translateX(0) translateY(0) rotate(0deg)"
+                width="16px"
+              />
+            </div>
+          </span>
+        </button>
+      </div>
+    </header>
   </div>
 </div>
 `;
@@ -811,197 +791,192 @@ exports[`<SiteHeaderMobile /> should render correctly 1`] = `
   <div
     class="css-ql39e"
   >
-    <div
-      class="css-roynbj"
+    <header
+      class="css-15c1jec"
       data-paste-element="BOX"
+      display="flex,flex,none"
     >
-      <header
-        class="css-15c1jec"
+      <div
+        class="css-c8ym1p"
         data-paste-element="BOX"
-        display="flex,flex,none"
       >
-        <div
-          class="css-c8ym1p"
-          data-paste-element="BOX"
-        >
-          <button
-            aria-busy="false"
-            class="css-12ggu7m"
-            color="colorTextInverse"
-            cursor="pointer"
-            data-paste-element="BUTTON"
-            display="inline-block"
-            font-family="fontFamilyText"
-            font-weight="fontWeightSemibold"
-            text-decoration="none"
-            type="button"
-            width="auto"
-          >
-            <span
-              aria-hidden="false"
-              class="css-cfzbzn"
-              data-paste-element="BOX"
-              display="flex"
-              opacity="1"
-              text-decoration="inherit"
-            >
-              <div
-                class="css-j5k42x"
-                data-paste-element="BOX"
-              >
-                <span
-                  class="css-zhc3mm"
-                  color="currentColor"
-                  data-paste-element="ICON"
-                  display="block"
-                >
-                  <svg
-                    aria-hidden="false"
-                    height="100%"
-                    role="img"
-                    viewBox="0 0 20 20"
-                    width="100%"
-                  >
-                    <title>
-                      Search by Account SID (ACxxx)
-                    </title>
-                    <path
-                      d="M5.43 5.43a4.882 4.882 0 017.383 6.347l2.973 2.973a.732.732 0 01-1.036 1.036l-2.973-2.973A4.883 4.883 0 015.43 5.43zm1.035 1.035a3.417 3.417 0 104.833 4.833 3.417 3.417 0 00-4.833-4.833z"
-                      fill="currentColor"
-                      fill-rule="evenodd"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </span>
-          </button>
-        </div>
-        <div
-          class="css-1pbe5qc"
-          data-paste-element="BOX"
-          display="flex"
+        <button
+          aria-busy="false"
+          class="css-12ggu7m"
+          color="colorTextInverse"
+          cursor="pointer"
+          data-paste-element="BUTTON"
+          display="inline-block"
+          font-family="fontFamilyText"
+          font-weight="fontWeightSemibold"
+          text-decoration="none"
+          type="button"
+          width="auto"
         >
           <span
-            class="css-8jah14"
-            data-paste-element="MEDIA_OBJECT"
+            aria-hidden="false"
+            class="css-cfzbzn"
+            data-paste-element="BOX"
             display="flex"
+            opacity="1"
+            text-decoration="inherit"
           >
-            <span
-              class="css-and4r"
-              data-paste-element="MEDIA_FIGURE"
-              display="flex"
+            <div
+              class="css-j5k42x"
+              data-paste-element="BOX"
             >
               <span
-                class="css-1v1gjpp"
-                color="colorTextInverse"
+                class="css-zhc3mm"
+                color="currentColor"
                 data-paste-element="ICON"
                 display="block"
               >
                 <svg
-                  aria-hidden="true"
+                  aria-hidden="false"
                   height="100%"
                   role="img"
                   viewBox="0 0 20 20"
                   width="100%"
                 >
+                  <title>
+                    Search by Account SID (ACxxx)
+                  </title>
                   <path
-                    d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0010 0zm0 17.333a7.333 7.333 0 110-14.666 7.333 7.333 0 010 14.666zm4.533-9.8a2.067 2.067 0 11-2.066-2.066 2.08 2.08 0 012.066 2.066zm0 4.934a2.067 2.067 0 11-2.066-2.067 2.08 2.08 0 012.066 2.067zm-4.933 0A2.067 2.067 0 117.533 10.4 2.08 2.08 0 019.6 12.467zm0-4.934a2.067 2.067 0 11-2.067-2.066A2.08 2.08 0 019.6 7.533z"
+                    d="M5.43 5.43a4.882 4.882 0 017.383 6.347l2.973 2.973a.732.732 0 01-1.036 1.036l-2.973-2.973A4.883 4.883 0 015.43 5.43zm1.035 1.035a3.417 3.417 0 104.833 4.833 3.417 3.417 0 00-4.833-4.833z"
                     fill="currentColor"
                     fill-rule="evenodd"
                   />
                 </svg>
               </span>
-            </span>
-            <span
-              class="css-1i39mnm"
-              data-paste-element="MEDIA_BODY"
-            >
-              <div
-                class="css-6kf143"
-                color="colorTextInverse"
-                data-paste-element="TEXT"
-                font-size="fontSize40"
-              >
-                <a
-                  class="css-mtfyde"
-                  href="/"
-                >
-                  Paste Starter
-                </a>
-              </div>
-            </span>
+            </div>
           </span>
-        </div>
-        <div
-          class="css-c8ym1p"
-          data-paste-element="BOX"
+        </button>
+      </div>
+      <div
+        class="css-1pbe5qc"
+        data-paste-element="BOX"
+        display="flex"
+      >
+        <span
+          class="css-8jah14"
+          data-paste-element="MEDIA_OBJECT"
+          display="flex"
         >
-          <button
-            aria-busy="false"
-            aria-label="Open main navigation"
-            class="css-12ggu7m"
-            color="colorTextInverse"
-            cursor="pointer"
-            data-paste-element="BUTTON"
-            data-testid="open_main_navigation"
-            display="inline-block"
-            font-family="fontFamilyText"
-            font-weight="fontWeightSemibold"
-            text-decoration="none"
-            type="button"
-            width="auto"
+          <span
+            class="css-and4r"
+            data-paste-element="MEDIA_FIGURE"
+            display="flex"
           >
             <span
-              aria-hidden="false"
-              class="css-cfzbzn"
-              data-paste-element="BOX"
-              display="flex"
-              opacity="1"
-              text-decoration="inherit"
+              class="css-1v1gjpp"
+              color="colorTextInverse"
+              data-paste-element="ICON"
+              display="block"
             >
-              <div
+              <svg
                 aria-hidden="true"
-                class="css-dujrh8"
-                data-paste-element="BOX"
-                height="28px"
-                width="36px"
+                height="100%"
+                role="img"
+                viewBox="0 0 20 20"
+                width="100%"
               >
-                <span
-                  class="css-yufnr1"
-                  data-paste-element="BOX"
-                  height="3px"
-                  opacity="1"
-                  transform="rotate(0deg)"
-                  width="16px"
+                <path
+                  d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0010 0zm0 17.333a7.333 7.333 0 110-14.666 7.333 7.333 0 010 14.666zm4.533-9.8a2.067 2.067 0 11-2.066-2.066 2.08 2.08 0 012.066 2.066zm0 4.934a2.067 2.067 0 11-2.066-2.067 2.08 2.08 0 012.066 2.067zm-4.933 0A2.067 2.067 0 117.533 10.4 2.08 2.08 0 019.6 12.467zm0-4.934a2.067 2.067 0 11-2.067-2.066A2.08 2.08 0 019.6 7.533z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
                 />
-                <span
-                  class="css-rz76f9"
-                  data-paste-element="BOX"
-                  height="3px"
-                  transform="translateX(0) translateY(0) rotate(0deg)"
-                  width="16px"
-                />
-                <span
-                  class="css-rz76f9"
-                  data-paste-element="BOX"
-                  height="3px"
-                  transform="translateX(0) translateY(0) rotate(0deg)"
-                  width="16px"
-                />
-                <span
-                  class="css-1k16ztv"
-                  data-paste-element="BOX"
-                  height="3px"
-                  opacity="1"
-                  transform="translateX(0) translateY(0) rotate(0deg)"
-                  width="16px"
-                />
-              </div>
+              </svg>
             </span>
-          </button>
-        </div>
-      </header>
-    </div>
+          </span>
+          <span
+            class="css-1i39mnm"
+            data-paste-element="MEDIA_BODY"
+          >
+            <div
+              class="css-6kf143"
+              color="colorTextInverse"
+              data-paste-element="TEXT"
+              font-size="fontSize40"
+            >
+              <a
+                class="css-mtfyde"
+                href="/"
+              >
+                Paste Starter
+              </a>
+            </div>
+          </span>
+        </span>
+      </div>
+      <div
+        class="css-c8ym1p"
+        data-paste-element="BOX"
+      >
+        <button
+          aria-busy="false"
+          aria-label="Open main navigation"
+          class="css-12ggu7m"
+          color="colorTextInverse"
+          cursor="pointer"
+          data-paste-element="BUTTON"
+          data-testid="open_main_navigation"
+          display="inline-block"
+          font-family="fontFamilyText"
+          font-weight="fontWeightSemibold"
+          text-decoration="none"
+          type="button"
+          width="auto"
+        >
+          <span
+            aria-hidden="false"
+            class="css-cfzbzn"
+            data-paste-element="BOX"
+            display="flex"
+            opacity="1"
+            text-decoration="inherit"
+          >
+            <div
+              aria-hidden="true"
+              class="css-dujrh8"
+              data-paste-element="BOX"
+              height="28px"
+              width="36px"
+            >
+              <span
+                class="css-yufnr1"
+                data-paste-element="BOX"
+                height="3px"
+                opacity="1"
+                transform="rotate(0deg)"
+                width="16px"
+              />
+              <span
+                class="css-rz76f9"
+                data-paste-element="BOX"
+                height="3px"
+                transform="translateX(0) translateY(0) rotate(0deg)"
+                width="16px"
+              />
+              <span
+                class="css-rz76f9"
+                data-paste-element="BOX"
+                height="3px"
+                transform="translateX(0) translateY(0) rotate(0deg)"
+                width="16px"
+              />
+              <span
+                class="css-1k16ztv"
+                data-paste-element="BOX"
+                height="3px"
+                opacity="1"
+                transform="translateX(0) translateY(0) rotate(0deg)"
+                width="16px"
+              />
+            </div>
+          </span>
+        </button>
+      </div>
+    </header>
   </div>
 </div>
 `;

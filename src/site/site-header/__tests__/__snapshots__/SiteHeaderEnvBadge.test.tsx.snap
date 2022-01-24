@@ -5,21 +5,16 @@ exports[`<SiteHeaderEnvBadge /> should render correctly for dev env 1`] = `
   <div
     class="css-ql39e"
   >
-    <div
-      class="css-roynbj"
-      data-paste-element="BOX"
+    <span
+      class="css-psiz1w"
+      color="colorTextSuccess"
+      data-paste-element="BADGE"
+      display="flex"
+      font-size="fontSize20"
+      font-weight="fontWeightSemibold"
     >
-      <span
-        class="css-psiz1w"
-        color="colorTextSuccess"
-        data-paste-element="BADGE"
-        display="flex"
-        font-size="fontSize20"
-        font-weight="fontWeightSemibold"
-      >
-        dev
-      </span>
-    </div>
+      dev
+    </span>
   </div>
 </div>
 `;
@@ -29,21 +24,16 @@ exports[`<SiteHeaderEnvBadge /> should render correctly for prod env 1`] = `
   <div
     class="css-ql39e"
   >
-    <div
-      class="css-roynbj"
-      data-paste-element="BOX"
+    <span
+      class="css-1php4p5"
+      color="colorTextError"
+      data-paste-element="BADGE"
+      display="flex"
+      font-size="fontSize20"
+      font-weight="fontWeightSemibold"
     >
-      <span
-        class="css-1php4p5"
-        color="colorTextError"
-        data-paste-element="BADGE"
-        display="flex"
-        font-size="fontSize20"
-        font-weight="fontWeightSemibold"
-      >
-        prod
-      </span>
-    </div>
+      prod
+    </span>
   </div>
 </div>
 `;
@@ -53,21 +43,16 @@ exports[`<SiteHeaderEnvBadge /> should render correctly for stage env 1`] = `
   <div
     class="css-ql39e"
   >
-    <div
-      class="css-roynbj"
-      data-paste-element="BOX"
+    <span
+      class="css-thuikx"
+      color="colorTextWarningStrong"
+      data-paste-element="BADGE"
+      display="flex"
+      font-size="fontSize20"
+      font-weight="fontWeightSemibold"
     >
-      <span
-        class="css-thuikx"
-        color="colorTextWarningStrong"
-        data-paste-element="BADGE"
-        display="flex"
-        font-size="fontSize20"
-        font-weight="fontWeightSemibold"
-      >
-        stage
-      </span>
-    </div>
+      stage
+    </span>
   </div>
 </div>
 `;

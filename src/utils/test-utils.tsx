@@ -6,20 +6,6 @@ import { WindowSizeContext } from "@context/WindowSizeProvider";
 import { MemoryRouter, Route, Switch } from "react-router-dom";
 import { DarkModeContext } from "@context/DarkModeContext";
 import ToastsProvider from "@context/ToastsProvider";
-import { createGetForm } from "@src/utils/form";
-import { Box } from "@twilio-paste/core/dist/box";
-
-export function renderWithFormUtils(...args: Parameters<typeof rtlRender>) {
-  const [children, ...restArgs] = args;
-
-  const results = rtlRender(<Box>{children}</Box>, ...restArgs);
-  const getForm = createGetForm(results);
-
-  return {
-    ...results,
-    getForm,
-  };
-}
 
 const renderComponent = (
   ui: React.ReactElement,
@@ -67,7 +53,7 @@ const renderComponent = (
     </MockQueryManagerContext>
   );
 
-  return renderWithFormUtils(ui, {
+  return rtlRender(ui, {
     wrapper: Wrapper,
     container,
     ...renderOptions,
