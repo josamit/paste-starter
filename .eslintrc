@@ -1,0 +1,110 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020, // Allows for the parsing of modern ECMAScript features
+    "sourceType": "module", // Allows for the use of imports
+    "ecmaFeatures": {
+      "jsx": true // Allows for the parsing of JSX
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+      // Tells eslint-plugin-react to automatically detect the version of React to use
+    }
+  },
+  "overrides": [
+    //Can't have return types in JS code
+    {
+      "files": ["*.js", "*.jsx"],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": "off"
+      }
+    },
+    //No need for runtime checks of prop-types for TS code in dev
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "react/prop-types": "off",
+        // It is sometimes nice to be able to create props with a function. For instance react-use-form-state.
+        "react/jsx-props-no-spreading": "off"
+      }
+    },
+    {
+      "files": ["*.tsx"],
+      "rules": {
+        //Allows us to use () => <Element /> functions without explicit return types
+        "@typescript-eslint/explicit-function-return-type": "off"
+      }
+    }
+  ],
+  "extends": [
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true,
+    "jest": true
+  },
+  "globals": {
+    "ENV_DEV": "readonly",
+    "twilio": "writable",
+    "$": "readonly"
+  },
+  "plugins": ["prettier", "react-hooks"],
+  "rules": {
+    //TODO: remove once we have full TS
+    "@typescript-eslint/ban-ts-ignore": "off",
+    //Some API responses need non-camelcase
+    "@typescript-eslint/camelcase": "off",
+    //No need to specify file extensions in imports
+    "import/extensions": "off",
+    //TODO: fix resolution for linter
+    "import/no-unresolved": "off",
+    //Allow jsx in non-jsx files
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx", ".tsx"] }],
+    //Max 1 prop per line when using multi-line JSX
+    "react/jsx-max-props-per-line": ["warn", { "maximum": 2, "when": "multiline" }],
+    //With React 17 we don't need react imports in the file
+    "react/jsx-uses-react": "off",
+    "react/no-array-index-key": "off",
+    "react/jsx-key": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/prefer-default-export": "off",
+    "camelcase": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "no-use-before-define": "off",
+    "no-await-in-loop": "off",
+    "no-param-reassign": ["warn"],
+    "react/display-name": ["warn"],
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "@typescript-eslint/ban-types": "off",
+    "no-return-await": ["warn"],
+    "consistent-return": ["warn"],
+    "no-restricted-syntax": ["warn"],
+    "no-case-declarations": ["warn"],
+    "import/no-extraneous-dependencies": "off",
+    "@typescript-eslint/triple-slash-reference": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "no-shadow": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "no-empty": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "radix": "off",
+    "max-len": [1, {
+      "code": 120
+    }],
+    "react/require-default-props": "off",
+    "react/no-unescaped-entities": "off"
+  }
+}

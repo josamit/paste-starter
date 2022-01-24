@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SlantedBackgroundGradient /> should render correctly 1`] = `
+<div>
+  <div
+    class="css-ql39e"
+  >
+    <div
+      class="css-roynbj"
+      data-paste-element="BOX"
+    >
+      <div>
+        <div>
+          Test Component
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
