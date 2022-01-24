@@ -29,6 +29,7 @@ export const markdownToReactNode = (content: string, id: string) => {
             break;
           case "link":
             // Not using the default parsed variant to show that we can put whatever element we want
+            // eslint-disable-next-line no-case-declarations
             const shouldShowExternal = token.href.includes("twilio.com");
             reactTokens.push(
               <Anchor
