@@ -2,6 +2,7 @@ import * as React from "react";
 import { styled, themeGet } from "@twilio-paste/styling-library";
 import { Box } from "@twilio-paste/box";
 import { useWindowSize } from "@hooks/useWindowSize";
+import AnnouncementsContainer from "@app/announcements/AnnouncementsContainer";
 import { Sidebar } from "./sidebar";
 import { SiteHeader } from "./site-header";
 import { SITE_BREAKPOINTS } from "../constants";
@@ -39,9 +40,9 @@ export const SiteBody: React.FC = ({ children }) => {
         <SiteHeader/>
         <StyledSiteBody id="styled-site-body">
           {windowSize.breakpointIndex === undefined ||
-          windowSize.breakpointIndex > 1 ? (
-            <Sidebar />
-          ) : null}
+           windowSize.breakpointIndex > 1 ? (
+             <Sidebar/>
+           ) : null}
           <Box flex="1" minWidth="size0">
             <main id="paste-starter-app-content-area">{children}</main>
           </Box>
