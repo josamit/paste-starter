@@ -6,7 +6,7 @@ exports[`<AnnouncementAlert /> should render correctly 1`] = `
     class="css-ql39e"
   >
     <div
-      class="css-slcqjs"
+      class="css-roynbj"
       data-paste-element="BOX"
       data-testid="test_alert"
       id="test_alert"

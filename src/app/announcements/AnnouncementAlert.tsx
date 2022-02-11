@@ -97,7 +97,7 @@ const AnnouncementAlert: FC<AnnouncementProps> = ({
 
   if (isVisible) {
     return (
-      <Box id={id} marginBottom="space70" data-testid={id}>
+      <Box id={id} data-testid={id}>
         <Alert variant={variant} onDismiss={onDismiss} data-testid={id}>
           {memoizedNodes}
         </Alert>

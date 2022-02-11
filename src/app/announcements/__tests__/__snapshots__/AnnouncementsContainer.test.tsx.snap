@@ -8,122 +8,117 @@ exports[`<AnnouncementsContainer /> should render correctly 1`] = `
     <div
       class="css-roynbj"
       data-paste-element="BOX"
+      data-testid="first_announcement"
+      id="first_announcement"
     >
       <div
-        class="css-slcqjs"
-        data-paste-element="BOX"
+        class="css-htbnjw"
+        data-paste-element="ALERT"
         data-testid="first_announcement"
-        id="first_announcement"
+        role="status"
       >
         <div
-          class="css-htbnjw"
-          data-paste-element="ALERT"
-          data-testid="first_announcement"
-          role="status"
+          class="css-1sekzvp"
+          data-paste-element="MEDIA_OBJECT"
+          display="flex"
         >
           <div
-            class="css-1sekzvp"
-            data-paste-element="MEDIA_OBJECT"
+            class="css-1llkq7k"
+            data-paste-element="MEDIA_FIGURE"
             display="flex"
           >
-            <div
-              class="css-1llkq7k"
-              data-paste-element="MEDIA_FIGURE"
-              display="flex"
-            >
-              <span
-                class="css-vha63f"
-                color="colorTextIconNeutral"
-                data-paste-element="ALERT_ICON"
-                display="block"
-              >
-                <svg
-                  aria-hidden="false"
-                  height="100%"
-                  role="img"
-                  viewBox="0 0 20 20"
-                  width="100%"
-                >
-                  <title>
-                    information: 
-                  </title>
-                  <path
-                    d="M10 2a8 8 0 110 16 8 8 0 010-16zm0 7c-.26.01-.528.08-.707.24-.178.158-.292.355-.292.575v3.37c0 .21.11.428.292.577.173.14.457.247.707.237.26-.008.528-.078.707-.237.178-.16.292-.355.292-.577v-3.37a.766.766 0 00-.292-.575A1.14 1.14 0 0010 9zm0-3l-.266.036c-.17.047-.318.131-.441.253l-.156.198A.958.958 0 009 6.98v.04a.728.728 0 00.086.378c.04.121.108.227.206.315.09.094.197.163.321.202.12.06.248.09.386.084l.266-.035c.17-.047.318-.131.441-.253l.156-.198A.958.958 0 0011 7.02v-.04a.728.728 0 00-.086-.378.721.721 0 00-.206-.315.757.757 0 00-.321-.202.767.767 0 00-.386-.084z"
-                    fill="currentColor"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-              </span>
-            </div>
-            <div
-              class="css-1i39mnm"
-              data-paste-element="MEDIA_BODY"
-            >
-              <div>
-                <span
-                  class="css-1n4qplb"
-                  color="colorText"
-                  data-paste-element="TEXT"
-                  font-size="fontSize30"
-                  id="first_announcement"
-                >
-                  This is a sample announcement. You can dismiss it safely.
-                </span>
-              </div>
-            </div>
             <span
-              class="css-17yrt8g"
-              data-paste-element="MEDIA_FIGURE"
-              display="flex"
+              class="css-vha63f"
+              color="colorTextIconNeutral"
+              data-paste-element="ALERT_ICON"
+              display="block"
             >
-              <button
-                aria-busy="false"
-                class="css-140t9ab"
-                color="colorTextIcon"
-                cursor="pointer"
-                data-paste-element="ALERT_DISMISS_BUTTON"
-                display="inline-block"
-                font-family="fontFamilyText"
-                font-weight="fontWeightSemibold"
-                text-decoration="none"
-                type="button"
-                width="auto"
+              <svg
+                aria-hidden="false"
+                height="100%"
+                role="img"
+                viewBox="0 0 20 20"
+                width="100%"
               >
-                <span
-                  aria-hidden="false"
-                  class="css-cfzbzn"
-                  data-paste-element="BOX"
-                  display="flex"
-                  opacity="1"
-                  text-decoration="inherit"
-                >
-                  <span
-                    class="css-1kzjb37"
-                    color="colorTextIcon"
-                    data-paste-element="ALERT_DISMISS_ICON"
-                    display="block"
-                  >
-                    <svg
-                      aria-hidden="false"
-                      height="100%"
-                      role="img"
-                      viewBox="0 0 20 20"
-                      width="100%"
-                    >
-                      <title>
-                        Dismiss alert
-                      </title>
-                      <path
-                        d="M15.16 13.514L11.645 10l3.515-3.514a1.165 1.165 0 00-1.646-1.646L10 8.355 6.486 4.84A1.165 1.165 0 004.84 6.486L8.355 10 4.84 13.514a1.165 1.165 0 001.646 1.646L10 11.645l3.514 3.515a1.165 1.165 0 001.646-1.646z"
-                        fill="currentColor"
-                        fill-rule="evenodd"
-                      />
-                    </svg>
-                  </span>
-                </span>
-              </button>
+                <title>
+                  information: 
+                </title>
+                <path
+                  d="M10 2a8 8 0 110 16 8 8 0 010-16zm0 7c-.26.01-.528.08-.707.24-.178.158-.292.355-.292.575v3.37c0 .21.11.428.292.577.173.14.457.247.707.237.26-.008.528-.078.707-.237.178-.16.292-.355.292-.577v-3.37a.766.766 0 00-.292-.575A1.14 1.14 0 0010 9zm0-3l-.266.036c-.17.047-.318.131-.441.253l-.156.198A.958.958 0 009 6.98v.04a.728.728 0 00.086.378c.04.121.108.227.206.315.09.094.197.163.321.202.12.06.248.09.386.084l.266-.035c.17-.047.318-.131.441-.253l.156-.198A.958.958 0 0011 7.02v-.04a.728.728 0 00-.086-.378.721.721 0 00-.206-.315.757.757 0 00-.321-.202.767.767 0 00-.386-.084z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                />
+              </svg>
             </span>
           </div>
+          <div
+            class="css-1i39mnm"
+            data-paste-element="MEDIA_BODY"
+          >
+            <div>
+              <span
+                class="css-1n4qplb"
+                color="colorText"
+                data-paste-element="TEXT"
+                font-size="fontSize30"
+                id="first_announcement"
+              >
+                This is a sample announcement. You can dismiss it safely.
+              </span>
+            </div>
+          </div>
+          <span
+            class="css-17yrt8g"
+            data-paste-element="MEDIA_FIGURE"
+            display="flex"
+          >
+            <button
+              aria-busy="false"
+              class="css-140t9ab"
+              color="colorTextIcon"
+              cursor="pointer"
+              data-paste-element="ALERT_DISMISS_BUTTON"
+              display="inline-block"
+              font-family="fontFamilyText"
+              font-weight="fontWeightSemibold"
+              text-decoration="none"
+              type="button"
+              width="auto"
+            >
+              <span
+                aria-hidden="false"
+                class="css-cfzbzn"
+                data-paste-element="BOX"
+                display="flex"
+                opacity="1"
+                text-decoration="inherit"
+              >
+                <span
+                  class="css-1kzjb37"
+                  color="colorTextIcon"
+                  data-paste-element="ALERT_DISMISS_ICON"
+                  display="block"
+                >
+                  <svg
+                    aria-hidden="false"
+                    height="100%"
+                    role="img"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                  >
+                    <title>
+                      Dismiss alert
+                    </title>
+                    <path
+                      d="M15.16 13.514L11.645 10l3.515-3.514a1.165 1.165 0 00-1.646-1.646L10 8.355 6.486 4.84A1.165 1.165 0 004.84 6.486L8.355 10 4.84 13.514a1.165 1.165 0 001.646 1.646L10 11.645l3.514 3.515a1.165 1.165 0 001.646-1.646z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </span>
+            </button>
+          </span>
         </div>
       </div>
     </div>

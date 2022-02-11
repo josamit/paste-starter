@@ -22,17 +22,15 @@ const AnnouncementsContainer: FC<AnnouncementsProps> = ({
           valid_until,
           can_be_dismissed,
         }) => (
-          <Box key={id}>
-            <AnnouncementContainer
-              id={id}
-              content={content}
-              variant={variant}
-              valid_from={valid_from}
-              valid_until={valid_until}
-              data-tesid={`${id}-container`}
-              can_be_dismissed={can_be_dismissed}
-            />
-          </Box>
+          <AnnouncementContainer
+            id={id}
+            content={content}
+            variant={variant}
+            valid_from={valid_from}
+            valid_until={valid_until}
+            data-tesid={`${id}-container`}
+            can_be_dismissed={can_be_dismissed}
+          />
         )
       )}
     </>

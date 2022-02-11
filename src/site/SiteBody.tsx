@@ -36,13 +36,13 @@ export const SiteBody: React.FC = ({ children }) => {
   return (
     <Box display="flex" flexDirection="column" height="100vh">
       <WindowSizeContext.Provider value={{ ...windowSize }}>
-        <AnnouncementsContainer/>
-        <SiteHeader/>
+        <AnnouncementsContainer />
+        <SiteHeader />
         <StyledSiteBody id="styled-site-body">
           {windowSize.breakpointIndex === undefined ||
-           windowSize.breakpointIndex > 1 ? (
-             <Sidebar/>
-           ) : null}
+          windowSize.breakpointIndex > 1 ? (
+            <Sidebar />
+          ) : null}
           <Box flex="1" minWidth="size0">
             <main id="paste-starter-app-content-area">{children}</main>
           </Box>
