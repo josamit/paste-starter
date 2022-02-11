@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@twilio-paste/box";
-import { SITE_CONTENT_MAX_WIDTH } from "../../constants";
+import { SITE_CONTENT_MAX_WIDTH } from "@src/constants";
 
 const SitePage: React.FC = ({ children }) => {
   return (

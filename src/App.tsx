@@ -6,7 +6,7 @@ import { SiteWrapper } from "./site";
 import SitePage from "./site/site-page";
 import { SidebarCategoryRoutes } from "./constants";
 
-const App: React.FC = () => (
+const App: React.VFC = () => (
   <BrowserRouter>
     <SiteWrapper>
       <SitePage>

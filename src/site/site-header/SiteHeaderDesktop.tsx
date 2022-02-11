@@ -5,7 +5,7 @@ import { SiteHeaderSearch } from "./SiteHeaderSearch";
 import { SiteHeaderLogo } from "./SiteHeaderLogo";
 import { DarkModeToggle } from "./DarkModeToggle";
 
-const SiteHeaderDesktop: React.FC = () => {
+const SiteHeaderDesktop: React.VFC = () => {
   return (
     <Box
       as="header"

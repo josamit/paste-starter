@@ -1,10 +1,10 @@
 import * as React from "react";
 import { Theme } from "@twilio-paste/theme";
 import { useDarkMode } from "@hooks/useDarkMode";
+import { DarkModeContext } from "@context/DarkModeContext";
+import ToastsProvider from "@context/ToastsProvider";
 import { SiteBody } from "./SiteBody";
-import { DarkModeContext } from "../context/DarkModeContext";
 import { SITE_BREAKPOINTS } from "../constants";
-import ToastsProvider from "../context/ToastsProvider";
 
 const SiteWrapper: React.FC = ({ children }) => {
   const [theme, toggleMode, componentMounted] = useDarkMode();

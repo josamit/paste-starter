@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import { Box } from "@twilio-paste/core";
 import { announcements as defaultAnnouncements } from "@app/announcements/types/announcements";
 import { Announcement } from "./types/announcement";
 import AnnouncementContainer from "./AnnouncementContainer";

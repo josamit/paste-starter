@@ -30,7 +30,7 @@ interface ContactUsMenuProps {
     | "left-start";
 }
 
-export const ContactUsMenu: React.FC<ContactUsMenuProps> = ({
+export const ContactUsMenu: React.VFC<ContactUsMenuProps> = ({
   placement = "right-end",
 }) => {
   const menu = useMenuState({ placement });

@@ -80,7 +80,7 @@ interface MobileNavigationProps {
   onClose: () => void;
 }
 
-const MobileNavigation: React.FC<MobileNavigationProps> = ({
+const MobileNavigation: React.VFC<MobileNavigationProps> = ({
   isOpen,
   onClose,
 }) => {

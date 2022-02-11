@@ -17,7 +17,7 @@ const determineBadgeVariant = (environment: string) => {
   return variant;
 };
 
-const SiteHeaderEnvBadge: React.FC = () => {
+const SiteHeaderEnvBadge: React.VFC = () => {
   const { environment } = useWindowObject();
 
   const variant = determineBadgeVariant(environment);

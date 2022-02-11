@@ -7,7 +7,7 @@ import { SiteHeaderLogo } from "./SiteHeaderLogo";
 import { MobileNavigation } from "./SiteHeaderMobileNavigation";
 import { MobileSearch } from "./SiteHeaderMobileSearch";
 
-const SiteHeaderMobile: React.FC = () => {
+const SiteHeaderMobile: React.VFC = () => {
   const [navigationOpen, setNavigationOpen] = React.useState(false);
   const [searchOpen, setSearchOpen] = React.useState(false);
 

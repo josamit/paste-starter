@@ -57,7 +57,7 @@ interface MobileSearchProps {
   onClose: () => void;
 }
 
-const MobileSearch: React.FC<MobileSearchProps> = ({ isOpen, onClose }) => {
+const MobileSearch: React.VFC<MobileSearchProps> = ({ isOpen, onClose }) => {
   if (!isOpen) {
     return null;
   }

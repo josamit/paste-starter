@@ -3,10 +3,10 @@ import { styled, themeGet } from "@twilio-paste/styling-library";
 import { Box } from "@twilio-paste/box";
 import { useWindowSize } from "@hooks/useWindowSize";
 import AnnouncementsContainer from "@app/announcements/AnnouncementsContainer";
+import { WindowSizeContext } from "@context/WindowSizeProvider";
 import { Sidebar } from "./sidebar";
 import { SiteHeader } from "./site-header";
 import { SITE_BREAKPOINTS } from "../constants";
-import { WindowSizeContext } from "../context/WindowSizeProvider";
 
 /* Wraps the main region and footer on the doc site page */
 const StyledSiteBody = styled.div`

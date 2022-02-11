@@ -51,7 +51,7 @@ const StyledSidebarAnchor = styled(Link)<SidebarAnchorProps>((props) => {
   return css(style);
 });
 
-const SidebarAnchor: React.FC<SidebarAnchorProps> = ({
+const SidebarAnchor: React.VFC<SidebarAnchorProps> = ({
   children,
   nested,
   to,

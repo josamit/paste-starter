@@ -10,7 +10,7 @@ const StyledSidebar = styled(Box)(() => ({
   WebkitOverflowScrolling: "touch",
 }));
 
-const Sidebar: React.FC = () => {
+const Sidebar: React.VFC = () => {
   return (
     <StyledSidebar
       as="aside"

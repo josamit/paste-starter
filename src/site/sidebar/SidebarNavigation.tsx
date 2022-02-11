@@ -22,7 +22,7 @@ interface SidebarNavigationProps {
   children?: React.ReactNode;
 }
 
-const SidebarNavigation: React.FC<SidebarNavigationProps> = () => {
+const SidebarNavigation: React.VFC<SidebarNavigationProps> = () => {
   const { username } = useWindowObject();
   const { queryParams } = useQueryManager();
   const { pathname } = useLocation();

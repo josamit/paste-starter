@@ -3,7 +3,7 @@ import { useWindowSize } from "@hooks/useWindowSize";
 import { SiteHeaderDesktop } from "./SiteHeaderDesktop";
 import { SiteHeaderMobile } from "./SiteHeaderMobile";
 
-export const SiteHeader: React.FC = () => {
+export const SiteHeader: React.VFC = () => {
   const { breakpointIndex } = useWindowSize();
 
   // While SSR, render both and let CSS handle it (fixes FoUC)

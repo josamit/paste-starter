@@ -11,7 +11,7 @@ type LoadingSpinnerProps = MarginProps &
   PaddingProps &
   IconWrapperProps & { loadingText?: string | React.ReactElement };
 
-const LoadingSpinner: React.FC<LoadingSpinnerProps> = ({
+const LoadingSpinner: React.VFC<LoadingSpinnerProps> = ({
   marginTop,
   marginBottom,
   size,

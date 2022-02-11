@@ -1,14 +1,14 @@
 import * as React from "react";
 import { useHistory, useLocation } from "react-router-dom";
 import {
+  QueryManagerContextProvider,
+  QueryParams,
+} from "@context/QueryManagerContext";
+import {
   emptyQueryParams,
   parseQueryString,
   setQueryParams,
 } from "./filtering";
-import {
-  QueryManagerContextProvider,
-  QueryParams,
-} from "../context/QueryManagerContext";
 
 const RouterStateManager: React.FC = ({ children }) => {
   const { search } = useLocation();

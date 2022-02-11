@@ -40,7 +40,7 @@ const StyledThemeSwitcherRadio = styled.input({
   position: "absolute",
 });
 
-export const DarkModeToggle: React.FC = () => {
+export const DarkModeToggle: React.VFC = () => {
   const { theme, toggleMode } = useDarkModeContext();
   const lightModeID = useUID();
   const darkModeID = useUID();

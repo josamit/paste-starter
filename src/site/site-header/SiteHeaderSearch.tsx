@@ -8,7 +8,7 @@ import { useLocation } from "react-router-dom";
 import { useQueryManager } from "@context/QueryManagerContext";
 import { useToasts } from "@context/ToastsProvider";
 
-const SiteHeaderSearch: React.FC = () => {
+const SiteHeaderSearch: React.VFC = () => {
   const toaster = useToasts();
   const { pathname } = useLocation();
 
