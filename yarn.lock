@@ -3279,7 +3279,7 @@
     lodash.groupby "^4.6.0"
     react-virtual "^2.8.2"
 
-"@twilio-paste/core@^10.18.0":
+"@twilio-paste/core@^10.20.0":
   version "10.20.0"
   resolved "https://registry.yarnpkg.com/@twilio-paste/core/-/core-10.20.0.tgz#20bf5e20eee78672d1b4f4c4737c2f0e27e91735"
   integrity sha512-Qr2tMXRqLQEAHni0P3KJqViBp1ieV1NRTVzWmagl9qXbL6+x6WPdYcT7I+oyCYUYEDj+PCt4Yk1t4/nVYxdcGw==

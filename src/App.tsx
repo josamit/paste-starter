@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import AnnouncementsContainer from "@app/announcements/AnnouncementsContainer";
 import HomeContainer from "@app/home/HomeContainer";
 import FirstPageContainer from "@app/first-page/FirstPageContainer";
 import { SiteWrapper } from "./site";
@@ -11,7 +10,6 @@ const App: React.FC = () => (
   <BrowserRouter>
     <SiteWrapper>
       <SitePage>
-        <AnnouncementsContainer />
         <Switch>
           <Route path={SidebarCategoryRoutes.HOME}>
             <HomeContainer />

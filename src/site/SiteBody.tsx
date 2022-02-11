@@ -35,7 +35,8 @@ export const SiteBody: React.FC = ({ children }) => {
   return (
     <Box display="flex" flexDirection="column" height="100vh">
       <WindowSizeContext.Provider value={{ ...windowSize }}>
-        <SiteHeader />
+        <AnnouncementsContainer/>
+        <SiteHeader/>
         <StyledSiteBody id="styled-site-body">
           {windowSize.breakpointIndex === undefined ||
           windowSize.breakpointIndex > 1 ? (
